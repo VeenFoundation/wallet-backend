@@ -6,10 +6,6 @@ const assert = chai.assert;
 var decimals = Math.pow(10, 18);
 var veen, web3;
 
-/*
-    TODO //
-    3. Transaction List event 추적이 제대로 되는지 확인하기
-*/
 describe('Veen', function(){
     this.timeout(100000);
 
