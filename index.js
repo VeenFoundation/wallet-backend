@@ -18,7 +18,7 @@ app.get('/v1/wallet/gas', function(req, res) {
       res.setHeader('Content-Type', 'application/json');
       var gasResult;
       if(gas.length < 16) {
-        gasResult = 0;
+        gasResult = "0";
       } else {
         gasResult = veen.gasReadable(gas);
       }
