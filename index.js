@@ -4,7 +4,6 @@ const app = express();
 const decimals = Math.pow(10, 18);
 
 var veen = new VeenApi();
-console.log(process.env.PATH);
 
 app.get('/', function (req, res) {
     res.send('Hello World!, ');

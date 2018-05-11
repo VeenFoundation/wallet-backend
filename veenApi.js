@@ -3,7 +3,7 @@ const Web3 = require("web3");
 const EthereumTx = require('ethereumjs-tx')
 
 const mainNet = "http://veenpf-dns-reg1.southeastasia.cloudapp.azure.com:8545";
-const veenContractAddress = "0xbd9af7216a0c766b82c1f50f4384bab1fadea162";
+const veenContractAddress = "0x49db35d41f7c6b664c1035a22855ce3235b4af36";
 const gasPrivateKey = process.env.GAS_PRIVATE_KEY;
 
 const decimals = Math.pow(10, 18);
